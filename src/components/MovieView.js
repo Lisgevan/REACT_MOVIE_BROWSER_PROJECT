@@ -46,7 +46,6 @@ const MovieView = () => {
 
 			const resultsCompHTML = movieCompanies ? (
 				movieCompanies.map((obj, i) => {
-					// console.log(movieCompanies.map);
 					return <MovieProdComp movie={obj} key={i} />;
 				})
 			) : (
@@ -55,7 +54,6 @@ const MovieView = () => {
 
 			const resultsCntrHTML = movieCountries ? (
 				movieCountries.map((obj, i) => {
-					// console.log(resultsCntrHTML);
 					return <MovieProdComp movie={obj} key={i} />;
 				})
 			) : (
