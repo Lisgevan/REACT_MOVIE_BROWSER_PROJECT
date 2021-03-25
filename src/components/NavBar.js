@@ -9,10 +9,6 @@ import { useHistory, Link, NavLink } from "react-router-dom";
 const NavBar = ({ searchText, setSearchText, inputText, setInputText }) => {
 	const history = useHistory();
 
-	// const updateSearchText = e => {
-	// 	setSearchText(e.target.value);
-	// };
-
 	const updateInputText = e => {
 		setInputText(e.target.value);
 	};
